@@ -40,15 +40,49 @@ body {
   margin-left: auto;
 }
 
-.sekil-container img {
-  max-width: 90%;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+.hero-section {
+  background-image: url('şəkil1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
 }
 
-.sekil-container img:hover {
-  transform: scale(1.05);
+.hero-section {
+  background-image: url('şəkil2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
+}
+
+.hero-section {
+  background-image: url('şəkil3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
 }
 
 /* Məhsul bölməsi */
