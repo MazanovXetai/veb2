@@ -1,0 +1,36 @@
+.footer {
+  background-color: #007BFF;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-menus a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-languages {
+  margin-top: 15px;
+}
+
+.footer-languages button {
+  background-color: white;
+  color: #007BFF;
+  border: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-languages button:hover {
+  background-color: #e0e0e0;
+}
