@@ -40,6 +40,17 @@ body {
   margin-left: auto;
 }
 
+.sekil-container img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.sekil-container img:hover {
+  transform: scale(1.05);
+}
+
 /* Məhsul bölməsi */
 .product-section {
   padding: 40px 20px;
