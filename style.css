@@ -40,7 +40,7 @@ body {
   margin-left: auto;
 }
 
-.hero-section {
+.hero-section1 {
   background-image: url('şəkil1.jpeg'); 
   background-size: cover;
   background-position: center;
@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.hero-section {
+.hero-section2 {
   background-image: url('şəkil2.jpeg'); 
   background-size: cover;
   background-position: center;
@@ -70,7 +70,7 @@ body {
   text-align: center;
 }
 
-.hero-section {
+.hero-section3 {
   background-image: url('şəkil3.jpeg'); 
   background-size: cover;
   background-position: center;
@@ -157,16 +157,16 @@ body {
 /* Səbət Pəncərəsi */
 .cart-popup {
   position: fixed;
-  top: 60px;
+  top: 80px;
   right: 20px;
-  width: 280px;
+  width: 250px;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   padding: 15px;
   display: none;
-  z-index: 100;
+  z-index: 1001;
 }
 
 .cart-popup h3 {
@@ -181,8 +181,13 @@ body {
   margin: 0 0 10px;
 }
 
+.cart-popup ul {
+  list-style: none;
+  padding: 0;
+}
+
 #cart-items li {
-  margin-bottom: 8px;
+  margin-bottom: 5px 0;
   font-size: 14px;
 }
 
