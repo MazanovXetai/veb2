@@ -1,31 +1,48 @@
- <!-- Məhsullar -->
-  <section class="product-section">
-    <h2>Məhsullarımız</h2>
+<!-- mehsullar.html -->
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Məhsullar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Ana Səhifə</a></li>
+      <li><a href="mehsullar.html">Məhsullar</a></li>
+      <li><a href="haqqımızda.html">Haqqımızda</a></li>
+      <li><a href="əlaqə.html">Əlaqə</a></li>
+    </ul>
+  </nav>
+
+  <div class="product-section">
+    <h2>Məhsullar</h2>
     <div class="product-list">
-
       <div class="product">
-        <img src="https://via.placeholder.com/200x250" alt="Paltar 1">
+        <img src="meyvə1.jpg" alt="Paltar 1">
         <h3>Paltar 1</h3>
-        <p>Şık və rahat dizayn.</p>
-        <p class="price">30 AZN</p>
-        <button onclick="addToCart('Paltar 1', 30)">Səbətə Əlavə Et</button>
+        <p class="price">25 AZN</p>
+        <button onclick="addToCart('Paltar 1', 25)">Səbətə əlavə et</button>
       </div>
-
-      <div class="product">
-        <img src="https://via.placeholder.com/200x250" alt="Paltar 2">
-        <h3>Paltar 2</h3>
-        <p>Gündəlik istifadə üçün ideal.</p>
-        <p class="price">45 AZN</p>
-        <button onclick="addToCart('Paltar 2', 45)">Səbətə Əlavə Et</button>
-      </div>
-
-      <div class="product">
-        <img src="https://via.placeholder.com/200x250" alt="Paltar 3">
-        <h3>Paltar 3</h3>
-        <p>Yaz fəsli üçün mükəmməl.</p>
-        <p class="price">55 AZN</p>
-        <button onclick="addToCart('Paltar 3', 55)">Səbətə Əlavə Et</button>
-      </div>
-
     </div>
-  </section>
+   <div class="product-section">
+    <h2>Məhsullar</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="meyvə2.jpg" alt="Paltar 2">
+        <h3>Paltar 1</h3>
+        <p class="price">25 AZN</p>
+        <button onclick="addToCart('Paltar 1', 35)">Səbətə əlavə et</button>
+      </div>
+    </div>
+
+  <div class="cart-popup" id="cart-popup">
+    <h3>Səbət</h3>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Cəmi: 0 AZN</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
