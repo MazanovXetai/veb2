@@ -86,6 +86,52 @@ body {
 }
 
 /* Məhsul bölməsi */
+
+.hero-section1 {
+  background-image: url('şəkil1.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
+}
+
+.hero-section2 {
+  background-image: url('şəkil2.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
+}
+
+.hero-section3 {
+  background-image: url('şəkil3.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
+}
+
 .product-section {
   padding: 40px 20px;
   text-align: center;
