@@ -91,12 +91,6 @@ body {
   text-align: center;
 }
 
-.product-section h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  color: #333;
-}
-
 .product-list {
   display: flex;
   justify-content: center;
