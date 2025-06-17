@@ -1,42 +1,57 @@
-<!-- mehsullar.html -->
 <!DOCTYPE html>
 <html lang="az">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Məhsullar</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Menyu -->
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Ana Səhifə</a></li>
       <li><a href="mehsullar.html">Məhsullar</a></li>
       <li><a href="haqqımızda.html">Haqqımızda</a></li>
       <li><a href="əlaqə.html">Əlaqə</a></li>
+      <li class="cart" onclick="toggleCart()">🛒 Səbət: <span id="cart-count">0</span></li>
     </ul>
   </nav>
 
+  <!-- Məhsullar -->
   <div class="product-section">
     <h2>Məhsullar</h2>
     <div class="product-list">
-      <div class="product">
-        <img src="meyvə1.jpg" alt="Paltar 1">
-        <h3>Paltar 1</h3>
-        <p class="price">25 AZN</p>
-        <button onclick="addToCart('Paltar 1', 25)">Səbətə əlavə et</button>
-      </div>
-    </div>
-   <div class="product-section">
-    <h2>Məhsullar</h2>
-    <div class="product-list">
-      <div class="product">
-        <img src="meyvə2.jpg" alt="Paltar 2">
-        <h3>Paltar 1</h3>
-        <p class="price">25 AZN</p>
-        <button onclick="addToCart('Paltar 1', 35)">Səbətə əlavə et</button>
-      </div>
-    </div>
 
+      <div class="product">
+        <img src="şəkil1.jpeg" alt="Paltar 1">
+        <h3>Paltar 1</h3>
+        <p>Qadın paltarı</p>
+        <p class="price">30 AZN</p>
+        <button onclick="addToCart('Paltar 1', 30)">Səbətə əlavə et</button>
+      </div>
+
+      <div class="product">
+        <img src="şəkil2.jpeg" alt="Paltar 2">
+        <h3>Paltar 2</h3>
+        <p>Kişi paltarı</p>
+        <p class="price">45 AZN</p>
+        <button onclick="addToCart('Paltar 2', 45)">Səbətə əlavə et</button>
+      </div>
+
+      <div class="product">
+        <img src="şəkil3.jpeg" alt="Paltar 3">
+        <h3>Paltar 3</h3>
+        <p>Uşaq paltarı</p>
+        <p class="price">20 AZN</p>
+        <button onclick="addToCart('Paltar 3', 20)">Səbətə əlavə et</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Səbət Pəncərəsi -->
   <div class="cart-popup" id="cart-popup">
     <h3>Səbət</h3>
     <ul id="cart-items"></ul>
